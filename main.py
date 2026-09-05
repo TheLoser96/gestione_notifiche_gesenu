@@ -18,7 +18,7 @@ def main():
     # Se per domani c'è un ritiro programmato, manda il messaggio
     if domani in calendario:
         rifiuto = calendario[domani]
-        testo = f"🗑️ *Promemoria Rifiuti*\n\nDomani tocca a: **{rifiuto}**.\nRicordati di mettere fuori il bidone stasera!"
+        testo = f"♻️ *Promemoria Rifiuti*\n\nDomani tocca a: **{rifiuto}**.\nRicordati di mettere fuori il bidone stasera!👋🏻"
         
         requests.post(
             f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
