@@ -3,7 +3,7 @@ name: Notifica Rifiuti Telegram
 on:
   schedule:
     # Esegue ogni giorno alle 18:00 UTC (corrisponde alle 19:00 orario solare / 20:00 orario legale in Italia)
-    - cron: '0 15 * * *'
+    - cron: '17 17 * * *'
   # Permette di avviare il flusso manualmente dalla scheda Actions per fare test
   workflow_dispatch:
 
