@@ -79,7 +79,7 @@ Per testare lo script sul proprio computer:
 
 ## ⏰ Automazione tramite GitHub Actions
 
-Il workflow `.github/workflows/rifiuti.yml` esegue lo script ogni giorno alle **18:00 UTC** (pari alle 19:00 con ora solare / 20:00 con ora legale in Italia).
+Il workflow `.github/workflows/rifiuti.yml` esegue lo script ogni giorno alle **17:17 UTC** (pari alle 18:17 con ora solare / 19:17 con ora legale in Italia).
 
 ### Esecuzione Manuale (Test)
 1. Apri la scheda **Actions** del repository su GitHub.
